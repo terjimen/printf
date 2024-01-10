@@ -6,7 +6,7 @@
 /*   By: terjimen <marvin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/02 12:39:46 by terjimen          #+#    #+#             */
-/*   Updated: 2024/01/10 13:42:16 by terjimen         ###   ########.fr       */
+/*   Updated: 2024/01/10 14:11:57 by terjimen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ int	print_dig(unsigned int n, int base)
 	int		i;
 	char	*dig;
 
-	dig = "0123456789";
+	dig = "0123456789abcdef";
 	if (n < (unsigned int)base)
 		return (print_char(dig[n]));
 	else
