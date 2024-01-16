@@ -6,7 +6,7 @@
 /*   By: terjimen <marvin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/06 10:10:24 by terjimen          #+#    #+#             */
-/*   Updated: 2024/01/10 14:02:00 by terjimen         ###   ########.fr       */
+/*   Updated: 2024/01/16 18:18:55 by terjimen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,13 +59,3 @@ int	ft_printf(char const *form, ...)
 	va_end(ap);
 	return (i);
 }
-
-/*int	main(void)
-{
-	int	i;
-
-	i = ft_printf("Testeo de función");
-	ft_printf("Se ha escrito esto %d\n", i);
-	return (0);
-}
-*/
